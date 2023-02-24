@@ -16,7 +16,7 @@
 
 <ol>
     <li> Apresentação do Projeto Base </li>
-    <li> Configuração do banco de dados (SGBD <em>PostgreSQL</em>)</li>
+    <li> Configuração do banco de dados (SGBD <em>MySQL</em>)</li>
     <li> Aplicando as <em>annotations</em></li>
     <li>Execução do fluxo back-end: <em>Controller - Service - Repository</em></li>
     <li>Validação - <em>Hibernate Validator</em> </li>
@@ -26,12 +26,12 @@
 <h2>🛠 Tecnologias Utilizadas</h2>
 
 <ul>
-    <li>IDE IntelliJ</li>
+    <li>IDE Eclipse</li>
     <li>Java 11</li>
     <li>Maven</li>
     <li><strong>Spring Web</strong></li>
     <li><strong>Spring Data JPA</strong></li>
-    <li><strong>PostgreSQL Driver</strong></li>
+    <li><strong>MySQL Driver</strong></li>
     <li><strong>Hibernate Validator</strong></li>
     <li>Lombok</li>
     <li>Postman</li>
@@ -81,20 +81,7 @@ Indica qual é o lado inverso ou não dominante da relação.
 </ul>
 
 
-<h2> 🤝 Contribuindo </h2>
-
-Este repositório foi criado para fins de estudo, então contribua com ele.
-Se te ajudei de alguma forma, ficarei feliz em saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.
-
-Se possível:
-
-⭐️  Star o projeto
-
-🐛 Encontrar e relatar issues
-
-------------
-
-Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").
+Projeto adaptado com base no arquivo Realese [academia_digital](https://github.com/cami-la/academia-digital) da instrutora [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").
 
 
 
