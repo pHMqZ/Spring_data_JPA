@@ -11,13 +11,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "tb_matricula")
 public class Matricula {
@@ -31,4 +25,40 @@ public class Matricula {
 	private Aluno aluno;
 
 	private LocalDateTime dataDaMatricula = LocalDateTime.now();
+	
+	public Matricula() {
+		
+	}
+
+	public Matricula(Long id, Aluno aluno, LocalDateTime dataDaMatricula) {
+		this.id = id;
+		this.aluno = aluno;
+		this.dataDaMatricula = dataDaMatricula;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Aluno getAluno() {
+		return aluno;
+	}
+
+	public void setAluno(Aluno aluno) {
+		this.aluno = aluno;
+	}
+
+	public LocalDateTime getDataDaMatricula() {
+		return dataDaMatricula;
+	}
+
+	public void setDataDaMatricula(LocalDateTime dataDaMatricula) {
+		this.dataDaMatricula = dataDaMatricula;
+	}
+	
+	
 }
