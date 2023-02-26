@@ -31,5 +31,8 @@ public interface IMatriculaService {
    * @param id - id da Matrícula que será removida.
    */
   void delete(Long id);
+  
+  
+  List<Matricula> getAllFromBairro(String bairro);
 
 }
